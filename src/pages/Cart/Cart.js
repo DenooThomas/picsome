@@ -21,7 +21,6 @@ export default function Cart(){
             }, 2000);  
         }
     }
-    console.log("isSubmitted => ", isSubmitted)
 
     const submitButton = 
         <button 
@@ -40,7 +39,7 @@ export default function Cart(){
                     return (
                         <div className="cart-line" key={itemID}>
                             <img src={photoObj.url} className="cart-img" alt="cart option"/>
-                            <div className="cart-black-line"></div>
+                            <div className="cart-straight-line"></div>
                             <div className="cart-option-cont">
                                 <img src={binImg} className="cart-option-icon" alt="cart option" onClick={() => removeCart(photoObj.id)}/>
                                 <p className="cart-price">${price}</p>
