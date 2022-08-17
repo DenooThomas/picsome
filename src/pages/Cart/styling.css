@@ -37,7 +37,7 @@
 }
 
 .cart-option-cont{
-    width: 300px;
+    width: 150px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -52,4 +52,20 @@
 .cart-totalprice{
     justify-content: flex-end;
     vertical-align: baseline;
+}
+
+.cart-submit-cont{
+    width: 100%;
+    justify-content: center;
+}
+
+.cart-submit-button{
+    padding: 20px 30px;
+    border-radius: 3px;
+    border: none;
+    background-color: #E86252;
+}
+
+.cart-submit-button:hover{
+    cursor: pointer;
 }

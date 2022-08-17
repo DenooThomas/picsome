@@ -1,7 +1,7 @@
 :root{
     --main-blue: #114B5F;
     --main-orange: #E86252;
-    --main-white: #F3E9D2;
+    --main-white: #f6f2e9;
 }
 
 * {
@@ -12,6 +12,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    background-color: var(--main-white );
 }
 
 a{
@@ -24,7 +25,6 @@ a{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    background-color: var(--main-white);
 }
 
 /***** HOME *****/

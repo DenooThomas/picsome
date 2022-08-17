@@ -42,9 +42,7 @@ function ContextProvider(props){
 
     function removeCart(id){
         setCart(prevCart => {
-            return prevCart.map(item => {
-                return prevCart.filter(item !== id)
-            })
+            return prevCart.filter(item => item !== id)
         })
     }
     function clearCart(){
