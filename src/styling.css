@@ -47,11 +47,11 @@ a{
     line-height: 100px;
 }
 
-.cart-cont {
+.cart-header-cont {
     height: 45px;
     position: relative;
 }
-.cart-img {
+.cart-header-img {
     width: 45px;
 }
 

@@ -15,6 +15,7 @@
 .gallery-image{
     max-height: 250px;
     max-width: 300px;
+    border-radius: 2px;
 }
 
 .gallery-icon{
