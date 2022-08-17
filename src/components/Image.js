@@ -1,5 +1,4 @@
 import React, {useState, useContext} from "react"
-import {TransitionGroup} from 'react-transition-group'
 
 import heartEmpty from "../img/heart-empty.svg"
 import heartFill from "../img/heart-fill.svg"
@@ -43,13 +42,8 @@ export default function Image({img}){
             />
             {isHovered && 
                 <React.Fragment>
-                <TransitionGroup
-                    transitionName="galleryOption"
-                    transitionEnterTimeout={500}
-                    transitionLeaveTimeout={300}>
                     {addImg}
                     {heartImg}
-                </TransitionGroup>
                 </React.Fragment>
             }  
             {img.isFavorite && heartImg}
