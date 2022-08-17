@@ -1,0 +1,31 @@
+.gallery-cont{
+
+    width: 1060px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.gallery-image-cont{
+    position: relative;
+}
+
+
+.gallery-image{
+    max-height: 250px;
+    max-width: 300px;
+}
+
+.gallery-icon{
+    position: absolute;
+    top: 10;
+}
+
+.left {
+    left: 10;
+}
+
+.right {
+    right: 10;
+}
