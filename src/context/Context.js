@@ -30,9 +30,14 @@ function ContextProvider(props){
     }
     
     function addCart(id){
-        setCart(prevCart => {
-            return [...prevCart, id]
-        })
+        if(cart.includes(id)){
+            console.log("item already in cart")
+        }
+        else{
+            setCart(prevCart => {
+                return [...prevCart, id]
+            })
+        }
     }
 
     function removeCart(id){

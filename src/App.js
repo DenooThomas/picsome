@@ -10,18 +10,18 @@ function App() {
     
     return (
         <React.Fragment>
-            <Header />
             <div className="main-cont">
-                <Routes>
-                    <Route 
-                        path="/" 
-                        element={<Gallery />}
-                        />
-                    <Route 
-                        path="cart" 
-                        element={<Cart />}
-                        />
-                </Routes>
+                <Header />
+            <Routes>
+                <Route 
+                    path="/" 
+                    element={<Gallery />}
+                    />
+                <Route 
+                    path="cart" 
+                    element={<Cart />}
+                    />
+            </Routes>
             </div>
         </React.Fragment>
     )
