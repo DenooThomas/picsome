@@ -1,5 +1,7 @@
 # PicSome 
-![PicSome](https://user-images.githubusercontent.com/110465703/204525030-2abfb63a-c8b0-4213-a53e-527a528ccb87.png)
+![PicSome](https://user-images.githubusercontent.com/110465703/204525371-5cd75a64-11f5-4551-afa3-aaafb8a1f771.png)
+
+![PicSome2](https://user-images.githubusercontent.com/110465703/204525380-d0b5ad82-e3e2-4841-9c13-5493e61bb427.png)
 
 Photo Gallery application (exercise: https://scrimba.com/learn/react)
 
